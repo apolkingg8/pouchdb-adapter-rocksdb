@@ -1,9 +1,9 @@
-import * as CoreLevelPouch from 'pouchdb-adapter-leveldb-core';
-import * as rocksDB from 'rocksdb';
+const CoreLevelPouch = require('pouchdb-adapter-leveldb-core')
+const rocksdb =  require('rocksdb')
 
 function RocksPouch(opts, callback) {
     let newOpts = Object.assign({
-        db: rocksDB
+        db: rocksdb
     }, opts)
     let TempPouch = CoreLevelPouch
 

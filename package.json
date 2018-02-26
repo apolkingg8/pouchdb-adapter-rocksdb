@@ -1,6 +1,6 @@
 {
   "name": "pouchdb-adapter-rocksdb",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "apolkingg8",
   "repository": "https://github.com/apolkingg8/pouchdb-adapter-rocksdb",
   "bugs": "https://github.com/apolkingg8/pouchdb-adapter-rocksdb/issues",
