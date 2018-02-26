@@ -7,8 +7,14 @@ port from [pouchdb-adapter-memory](https://github.com/pouchdb/pouchdb/tree/maste
 ```$xslt
 yarn add pouchdb-adapter-rocksdb
 ```
+js
 ```js
 PouchDB.plugin(require('pouchdb-adapter-rocksdb'));
+var db = new PouchDB('mydb', {adapter: 'rocksdb'});
+```
+typescript
+```typescript
+PouchDB.plugin(require('pouchdb-adapter-rocksdb').default);
 var db = new PouchDB('mydb', {adapter: 'rocksdb'});
 ```
 
