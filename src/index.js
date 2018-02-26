@@ -20,6 +20,6 @@ RocksPouch.valid = function () {
 
 RocksPouch.use_prefix = false
 
-export default function (PouchDB) {
+exports.default = function (PouchDB) {
     PouchDB.adapter('rocksDB', RocksPouch, true);
 }
