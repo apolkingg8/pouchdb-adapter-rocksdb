@@ -1,0 +1,14 @@
+{
+  "name": "pouchdb-adapter-rocksdb",
+  "version": "1.0.0",
+  "description": "A simple pouchdb adapter for rocksdb",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "pouchdb-adapter-leveldb-core": "^6.4.3",
+    "rocksdb": "^2.0.0"
+  },
+  "devDependencies": {
+    "typescript": "^2.7.2"
+  }
+}
