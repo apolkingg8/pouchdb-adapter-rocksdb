@@ -1,6 +1,9 @@
 {
   "name": "pouchdb-adapter-rocksdb",
   "version": "1.0.0",
+  "author": "apolkingg8",
+  "repository": "https://github.com/apolkingg8/pouchdb-adapter-rocksdb",
+  "bugs": "https://github.com/apolkingg8/pouchdb-adapter-rocksdb/issues",
   "description": "A simple pouchdb adapter for rocksdb",
   "main": "src/index.js",
   "license": "MIT",
