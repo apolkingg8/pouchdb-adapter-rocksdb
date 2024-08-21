@@ -1,6 +1,6 @@
 {
   "name": "pouchdb-adapter-rocksdb",
-  "version": "1.0.4",
+  "version": "9.0.0",
   "author": "apolkingg8",
   "repository": "https://github.com/apolkingg8/pouchdb-adapter-rocksdb",
   "bugs": "https://github.com/apolkingg8/pouchdb-adapter-rocksdb/issues",
@@ -10,9 +10,11 @@
   "scripts": {
     "build": "babel src -d dist"
   },
+  "peerDependencies": {
+    "rocksdb": "^5.2.1"
+  },
   "dependencies": {
-    "pouchdb-adapter-leveldb-core": "^6.4.3",
-    "rocksdb": "^2.0.0"
+    "pouchdb-adapter-leveldb-core": "^9.0.0"
   },
   "devDependencies": {
     "babel-cli": "^6.26.0",
