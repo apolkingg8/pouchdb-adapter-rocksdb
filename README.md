@@ -4,16 +4,16 @@ A simple PouchDB adapter for [Level/rocksdb](https://github.com/Level/rocksdb),
 port from [pouchdb-adapter-memory](https://github.com/pouchdb/pouchdb/tree/master/packages/node_modules/pouchdb-adapter-memory).
 
 ### Usage
-```$xslt
+```bash
 yarn add pouchdb-adapter-rocksdb
 ```
-js
+JavaScript
 ```js
 PouchDB.plugin(require('pouchdb-adapter-rocksdb'));
 var db = new PouchDB('mydb', {adapter: 'rocksdb'});
 ```
-typescript
-```typescript
+TypeScript
+```ts
 PouchDB.plugin(require('pouchdb-adapter-rocksdb').default);
 var db = new PouchDB('mydb', {adapter: 'rocksdb'});
 ```
